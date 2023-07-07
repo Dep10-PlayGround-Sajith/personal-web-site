@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sajith Abeygunawardana</title>
-    <link rel="stylesheet" href="css/reset.css">
+<!--    <link rel="stylesheet" href="css/reset.css">-->
     <link rel="stylesheet" href="css/style.css">
-    <link defer rel="stylesheet" href="js/main.js">
+    <script defer src="js/main.js"></script>
 </head>
 <body>
     <div id="header">
@@ -22,7 +22,63 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Sajith</span> <br>Abeygunawardana</h1>
+            </div>
         </div>
     </div>
+<!--   ----about ------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/user.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias amet blanditiis consectetur dolor earum, esse facilis in ipsa magnam maxime optio pariatur perferendis quasi quibusdam, recusandae rerum voluptates voluptatibus.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI design</span><br>Desktop and Web Application</li>
+                        <li ><span>Web Application</span><br>Web service and Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Software Trainee</span><br>Software Development</li>
+                        <li><span>Planning Engineer(Civil Eng.)</span><br>Access Engineer PLC</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Sc Engineering(Hons.) </span><br>University of Peradeniya</li>
+                        <li><span>Software engineering </span><br>IJSE CMJD programme</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -----------Services------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My service</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p2></p2>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
