@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Ubuntu ,sans-serif;
+    font-size: 2rem;
+}
+
+body{
+    background: black;
+    color: white;
+}
