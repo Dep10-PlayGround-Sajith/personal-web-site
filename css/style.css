@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: Ubuntu ,sans-serif;
+    font-family: 'Poppins' ,sans-serif;
 }
 
 body{
@@ -65,11 +65,11 @@ nav ul li a:hover::after{
 }
 .header-text {
     margin-top: 20%;
-    font-size: 26px;
+    font-size: 28px;
 
 }
 .header-text h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 20px;
 }
 .header-text h1 span{
@@ -99,8 +99,9 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 
 }
+/*about me*/
 .sub-title{
-    font-size: 30px;
+    font-size: 50px;
     font-weight:600;
     color: white;
 }
@@ -141,6 +142,7 @@ nav ul li a:hover::after{
     font-size: 14px;
 }
 
+/* ----Portfolio-----*/
 .tab-contents{
     display: none;
 }
@@ -148,12 +150,95 @@ nav ul li a:hover::after{
     display: block;
 }
 
-#services{
-    padding: 30px 0;
+#portfolio{
+    padding: 50px 0;
 }
-.services-list {
+.work-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 70px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.work:hover img{
+    scale: 1.1;
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+.btn:hover{
+    background: #ff004f;
+}
+/*contact*/
+
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+
 }
