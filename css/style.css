@@ -329,6 +329,9 @@ nav .fa-solid{
 }
 
 @media screen and (max-width: 600px){
+    #logo{
+        scale: 0.5;
+    }
     #header{
         background-image: url("../img/background-image-2.png");
     }
