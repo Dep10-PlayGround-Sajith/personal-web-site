@@ -340,7 +340,8 @@ nav .fa-solid{
         scale: 0.5;
     }
     #header{
-        background-image: url("../img/background-image-2.png")!important;
+        background-image: url("../img/background-image-2.png");
+        z-index: 2;
 
     }
     .header-text{
