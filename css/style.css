@@ -16,7 +16,7 @@ body{
 }
 
 #logo{
-    scale: 0.8;
+    width: 150px;
 }
 
 #header{
@@ -341,7 +341,6 @@ nav .fa-solid{
     }
     #header{
         background-image: url("../img/background-image-2.png");
-        z-index: 2;
 
     }
     .header-text{
